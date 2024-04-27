@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io("https://mern-chat-app-master-theta.vercel.app", {
+      const socket = io("https://chat-app-yt-ejzv.onrender.com", {
         query: {
           userId: authUser._id,
         },
